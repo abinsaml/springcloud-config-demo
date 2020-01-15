@@ -17,8 +17,8 @@ spring:
         uri: lb://employee-consumer
         predicates:
         - Path=/employees/**
-        filters:
-        - RewritePath=/employees/(?.*),/$\{path}
+        #filters:
+        #- RewritePath=/employees/(?.*),/$\{path}
      
 
 
