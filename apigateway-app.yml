@@ -18,7 +18,7 @@ spring:
         predicates:
         - Path=/employees/**
         filters:
-        - RewritePath=/employees/(?.*), /$\{path}
+        - RewritePath=/employees
      
 
 
